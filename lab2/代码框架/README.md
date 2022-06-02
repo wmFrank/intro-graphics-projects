@@ -1,0 +1,2 @@
+# Hw2完成了提高题部分
+### 主要功能分成了两个函数实现。第一个是用rasterize_triangle_with_msaa()代替了原来的rasterize_triangle()，功能是维护了一个mass_buf的vector列表，然后与之前不同的地方，就是对一个点进行了2**2的采样，记录了每一个点的颜色和深度，并且比较原来的深度，取最小的深度记录在msaa_buf中。第二个函数是msaa_average(),在draw函数的最后调用，功能是根据msaa_buf的记录，每4个采用点的颜色值做平均，得到该像素的颜色值，然后记录到frame_buf中

@@ -1,0 +1,6 @@
+# Hw3完成了所有的基础题和提高题
+### 基础题的结果放在images文件夹下。提高题第一题自己使用model文件夹下的cube和rock模型，然后自己另外添加了garen.obj模型，渲染了英雄联盟盖伦的模型，结果放在otherimages文件夹下。提高题第二题实现了双线性插值，对spot进行了不同纹理大小的插值测试，结果放在bilinear文件夹下。
+
+### 基础题实现的话，首先在rasterize_triangle函数中完成各种属性的插值。然后normal_shader是实现好的，blinn_phong_shader则是根据课上讲的blinn_phong模型计算颜色，texture_shader是在blinn_phong基础上获取了纹理的颜色，bump_shader按照注释来对法线进行转变，displacement_shader是在bump_shader的基础上对position进行了位移以及加上了blinn_phong模型。
+
+### 提高题第一题换一个模型一开始会出现段错误，后来发现原因是没有对三角片的边界做检查。提高题第二题则是经典的双线性插值，利用周围方格四个顶点以及和需要插值的点的相对位置进行插值，从结果来看的话，整体上双线性插值看不出太大的区别，但是某些部位可以看出双线性插值的过渡更加平滑。
