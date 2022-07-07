@@ -34,5 +34,5 @@ This repo contains 8 projects for a great online course: [GAMES101: Introduction
 
 ## Certificate
 
-| <img src="https://user-images.githubusercontent.com/30235642/176627583-6acf8a61-bd66-4959-b76a-80fb2415e709.png" alt="MW(en)" width="500" height="300"/> | <img src="https://user-images.githubusercontent.com/30235642/176627602-11bc2095-62ab-4fbc-afde-cc6fb8434804.png" alt="MW(ch)" width="500" height="300"/> | 
+| <img src="https://user-images.githubusercontent.com/30235642/176627583-6acf8a61-bd66-4959-b76a-80fb2415e709.png" alt="MW(en)" width="500"/> | <img src="https://user-images.githubusercontent.com/30235642/176627602-11bc2095-62ab-4fbc-afde-cc6fb8434804.png" alt="MW(ch)" width="500"/> | 
 | ----------- | ----------- |
